@@ -1,6 +1,6 @@
 # iOS Change Log
 
-iOS change log is a library that automates the notification of the change log of new version of an app to the user 
+iOS change log is a library that automates the notification of the change log of new version of an app to the user. It shows only the change log only after an update of the app.
 
 # Integration
 **Manually**
@@ -19,7 +19,10 @@ The xml must have this structure
 	 `release 2`
 		`change 1`
 		`change 2`
-`release 2`
+		`change 1`
+		`change 2`
+		'
+	`release n`
 		`change 1`
 		`change 2`
 
@@ -154,5 +157,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1OTIzOTkzNiwtMjAxMDYzNDMxNl19
+eyJoaXN0b3J5IjpbLTEyMjU3NDczNzEsLTIwMTA2MzQzMTZdfQ
+==
 -->
