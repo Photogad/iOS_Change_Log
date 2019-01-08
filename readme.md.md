@@ -8,8 +8,10 @@ To use this library in your project manually you may:
 1.  for Workspaces, include the whole CLGChangeLog.xcodeproj
 
 ## Usage
-**
-The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the **New file** button in the file explorer. You can also create folders by clicking the **New folder** button.
+
+**Prepare change the log file**
+The lib require a change log file in the app bundle
+
 
 ## Switch to another file
 
@@ -142,5 +144,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NDY2ODAyMCwtMjAxMDYzNDMxNl19
+eyJoaXN0b3J5IjpbLTExNzg3NjAzODYsLTIwMTA2MzQzMTZdfQ
+==
 -->
