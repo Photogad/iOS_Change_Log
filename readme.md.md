@@ -11,7 +11,7 @@ To use this library in your project manually you may:
 
 **Prepare change the log file**
 The lib requiere an xml file with the history of the change log of the app.
-The xml must have this structure
+The xml must have this tag structure
 ```markup
 changelog
 	release 1
@@ -21,9 +21,15 @@ changelog
 	...
 	release m
 		change 1
-		`...`
-		`change y`
+		...
+		change y
 ```
+Here a table of Tags attributes
+|Tag| Attribute|
+|--|--|
+|  |  |
+ 
+
 ## Switch to another file
 
 All your files are listed in the file explorer. You can switch from one to another by clicking a file in the list.
@@ -155,5 +161,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI0MTE3MjE5LC0yMDEwNjM0MzE2XX0=
+eyJoaXN0b3J5IjpbMjExNTg0NDY3NSwtMjAxMDYzNDMxNl19
 -->
