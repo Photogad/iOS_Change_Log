@@ -12,9 +12,10 @@ To use this library in your project manually you may:
 **Prepare change the log file**
 The lib requiere an xml file with the history of the change log of the app.
 The xml must have this structure
+
 | `changelog` 
 |--- `release 1`
-|--- -`change 1`
+|---`change 1`
    	     `...`
 		`change x`
 	`...`
@@ -154,6 +155,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzgzNDQ4ODAsLTIwMTA2MzQzMTZdfQ
+eyJoaXN0b3J5IjpbLTE0Njg1NDU0MjksLTIwMTA2MzQzMTZdfQ
 ==
 -->
