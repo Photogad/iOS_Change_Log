@@ -56,7 +56,7 @@ changelog
 
 ## Usage
 
-This code runs
+This code usually runs in the main controller of the app or where you want the popup to be displayed
 
 #### Import
 ```swift
@@ -196,6 +196,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2ODk0OTYzMSwtNjE2MjM4Mjc2LC0yMD
-EwNjM0MzE2XX0=
+eyJoaXN0b3J5IjpbMzA1NDM3MjM1LC02MTYyMzgyNzYsLTIwMT
+A2MzQzMTZdfQ==
 -->
