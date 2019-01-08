@@ -7,11 +7,10 @@ iOS change log is a library that automates the notification of the change log of
 To use this library in your project manually you may:
 1.  for Workspaces, include the whole CLGChangeLog.xcodeproj
 
-## Usage
+## Prepare change the log XML
+The lib require an xml file with the history of the change log of the app.
 
-**Prepare change the log XML**
-The lib requiere an xml file with the history of the change log of the app.
-The xml must have this tag structure
+**Xml structure**
 ```markup
 changelog
 	release 1
@@ -166,6 +165,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMjEyNzMwMCwtNjE2MjM4Mjc2LC0yMD
+eyJoaXN0b3J5IjpbMTc5NTc4NDA4NiwtNjE2MjM4Mjc2LC0yMD
 EwNjM0MzE2XX0=
 -->
