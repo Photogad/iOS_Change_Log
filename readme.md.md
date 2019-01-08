@@ -35,55 +35,18 @@ changelog
 #### **Example**
 ```
 <?xml version="1.0" encoding="utf-8"?>
-
 <changelog title="Change Log">
-
-<release version="1.5" versioncode="7" >
-
-<change>Totally new and shiny version</change>
-
+	<release version="2.0" versioncode="3" >
+		<change>Totally new and shiny version</change>
+	</release>
+	<release version="1.0" versioncode="2" >
+		<change>Fixed: A bug fix</change>
+		<change>Ne</change>
+		<change>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.			</change>
 </release>
-
-<release version="1.4" versioncode="6" >
-
-<change>Totally new and shiny version</change>
-
-</release>
-
-<release version="1.3" versioncode="5" >
-
-<change>Totally new and shiny version</change>
-
-</release>
-
-<release version="1.2" versioncode="4" >
-
-<change>Totally new and shiny version</change>
-
-</release>
-
-<release version="1.1" versioncode="3" >
-
-<change>Totally new and shiny version</change>
-
-</release>
-
-<release version="1.0" versioncode="2" >
-
-<change>Fixed: A bug fix</change>
-
-<change>Some other changes I can't quite remember</change>
-
-<change>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.</change>
-
-</release>
-
 <release version="0.1" versioncode="1">
-
 <change>First release</change>
-
 </release>
-
 </changelog>
 ```
 
@@ -218,6 +181,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDg0OTcwMTAsLTYxNjIzODI3NiwtMj
+eyJoaXN0b3J5IjpbLTE5NjI1MzUyMTcsLTYxNjIzODI3NiwtMj
 AxMDYzNDMxNl19
 -->
