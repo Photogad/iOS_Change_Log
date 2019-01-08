@@ -63,12 +63,12 @@ import CLGChangeLog
 ```
 #### Initialization
 *CLGChangeLogManager* is the class that manage all of the logic, you must provide the view controller where you want the eventually show the popup
+and the url of the change log xml (usually in the main bundle). 
 ```swift
-import CLGChangeLog
-
 let manager =  CLGChangeLogManager(mainController: self, changeLogUri: Bundle.main.url(forResource: "changelog", withExtension: "xml")!))
 ```
 
+##
 ## Rename a file
 
 You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
@@ -196,6 +196,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MTIwODE3OSwtNjE2MjM4Mjc2LC0yMD
+eyJoaXN0b3J5IjpbMTk5NTI2ODY3OSwtNjE2MjM4Mjc2LC0yMD
 EwNjM0MzE2XX0=
 -->
