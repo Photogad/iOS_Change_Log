@@ -62,7 +62,7 @@ This code usually runs in the main controller of the app or in the ViewControlle
 import CLGChangeLog
 ```
 #### Initialization
-*CLGChangeLogManager* is the class that manage all of the logic, you must provide the controller 
+*CLGChangeLogManager* is the class that manage all of the logic, you must provide the view controller where you want the eventually show the popup
 ```swift
 import CLGChangeLog
 
@@ -196,6 +196,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzY3NTM4MzgsLTYxNjIzODI3NiwtMj
-AxMDYzNDMxNl19
+eyJoaXN0b3J5IjpbLTg4MTIwODE3OSwtNjE2MjM4Mjc2LC0yMD
+EwNjM0MzE2XX0=
 -->
