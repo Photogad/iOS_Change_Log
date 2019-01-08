@@ -53,9 +53,10 @@ changelog
 </changelog>
 ```
 
-## Switch to another file
+## Usage
 
-All your files are listed in the file explorer. You can switch from one to another by clicking a file in the list.
+#### Inizialization
+
 
 ## Rename a file
 
@@ -184,6 +185,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MzE1MTQ2MiwtNjE2MjM4Mjc2LC0yMD
-EwNjM0MzE2XX0=
+eyJoaXN0b3J5IjpbLTE0MjU1NzA4MjUsLTYxNjIzODI3NiwtMj
+AxMDYzNDMxNl19
 -->
