@@ -10,7 +10,9 @@ To use this library in your project manually you may:
 ## Usage
 
 **Prepare change the log file**
-The lib need an xml file with the history of the change log of the app.
+The lib requiere an xml file with the history of the change log of the app.
+The xml file contains a root tag **Change log**
+This is a file example
 
 
 ## Switch to another file
@@ -144,5 +146,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk3NjkyODQxLC0yMDEwNjM0MzE2XX0=
+eyJoaXN0b3J5IjpbMTYwNDMzMjQwMCwtMjAxMDYzNDMxNl19
 -->
