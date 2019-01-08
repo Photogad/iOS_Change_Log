@@ -3,8 +3,10 @@
 iOS change log is a library that automates the notification of the change log of new version of an app to the user 
 
 # Integration
-
-StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
+**Manually**
+To use this library in your project manually you may:
+1.  for Projects, just drag SwiftyJSON.swift to the project tree
+2.  for Workspaces, include the whole SwiftyJSON.xcodeproj
 
 ## Create files and folders
 
@@ -141,5 +143,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAyMTI4NTgxXX0=
+eyJoaXN0b3J5IjpbMTIwNTExMTMxM119
 -->
