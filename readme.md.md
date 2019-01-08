@@ -1,6 +1,6 @@
 # iOS Change Log
 
-iOS change log lib is a library that 
+iOS change log lib is a library that automates the notification of the change log of new an app 
 
 
 # Files
@@ -142,5 +142,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MjA5NTIzNV19
+eyJoaXN0b3J5IjpbMTA3MDE0OTk0MV19
 -->
