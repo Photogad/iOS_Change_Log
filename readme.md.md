@@ -24,11 +24,8 @@ changelog
 		...
 		change y
 ```
-Here a table of Tags attributes
-|Tag| Attribute|
-|--|--|
-|  |  |
- 
+Here a table of Tags attributes:
+ **changelog**
 
 ## Switch to another file
 
@@ -161,5 +158,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNTg0NDY3NSwtMjAxMDYzNDMxNl19
+eyJoaXN0b3J5IjpbMTM2ODY2OTIxMywtMjAxMDYzNDMxNl19
 -->
