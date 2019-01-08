@@ -55,10 +55,10 @@ changelog
 ```
 
 ## Usage
+This code the app controller where you want to eventually show the popup
 
-#### Inizialization
+#### Import
 ```swift
-// swift-tools-version:4.0
 import CLGChangeLog
 
 let manager =  CLGChangeLogManager(mainController: self, changeLogUri: Bundle.main.url(forResource: "changelog", withExtension: "xml")!)
@@ -192,6 +192,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzQ0OTUwNzgsLTYxNjIzODI3NiwtMj
-AxMDYzNDMxNl19
+eyJoaXN0b3J5IjpbNTMwOTQ5MDE4LC02MTYyMzgyNzYsLTIwMT
+A2MzQzMTZdfQ==
 -->
