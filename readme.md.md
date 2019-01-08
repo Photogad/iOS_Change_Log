@@ -56,7 +56,8 @@ changelog
 
 ## Usage
 
-This code usually runs in the main controller of the app or where you want the popup to be displayed
+This code usually runs in the main controller of the app or in the ViewController you want the popup to be displayed.
+CLGChangeLogManager
 
 #### Import
 ```swift
@@ -196,6 +197,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA1NDM3MjM1LC02MTYyMzgyNzYsLTIwMT
-A2MzQzMTZdfQ==
+eyJoaXN0b3J5IjpbMTY0NDA4NTAyNCwtNjE2MjM4Mjc2LC0yMD
+EwNjM0MzE2XX0=
 -->
