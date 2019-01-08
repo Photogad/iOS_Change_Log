@@ -72,7 +72,7 @@ and the url of the change log xml (usually in the main bundle).
 ```swift
 let manager =  CLGChangeLogManager(mainController: self, changeLogUri: Bundle.main.url(forResource: "changelog", withExtension: "xml")!))
 ```
-#### Check for update
+#### Check for change log updates
 In the viewDidAppear ovverride you can call checkChangeLog of the manager object and the lib display the change log popup if needed.
 ```swift
 override func viewDidAppear(_ animated: Bool) {
@@ -86,12 +86,12 @@ override func viewDidAppear(_ animated: Bool) {
 		print("No release found")
 	}
 }
-``
+```
 
 ## Credits
 
-Alamofire is owned and maintained by the  Dunbar
+iOS change log is owned and maintained by the  **Dunbar Technology LLC**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MDI4NTE4MCwtNjE2MjM4Mjc2LC0yMD
-EwNjM0MzE2XX0=
+eyJoaXN0b3J5IjpbMjQ0NjAwMjMsMTI4MDI4NTE4MCwtNjE2Mj
+M4Mjc2LC0yMDEwNjM0MzE2XX0=
 -->
