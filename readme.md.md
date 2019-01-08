@@ -27,7 +27,9 @@ changelog
 Here a table of Tags attributes:
 | Tag | Attribute  | Description  |
 |--|--| -- |
-| changelog| title | Title displa|
+| **changelog**| **title** | Title of the change log notification popup|
+| **release**| **version** | Label of version |
+
 | changelog| title | Descrizione |
 |  |  | |
 
@@ -163,6 +165,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MjE0MTM4NCwtNjE2MjM4Mjc2LC0yMD
-EwNjM0MzE2XX0=
+eyJoaXN0b3J5IjpbODc5MTcwMTIyLC02MTYyMzgyNzYsLTIwMT
+A2MzQzMTZdfQ==
 -->
