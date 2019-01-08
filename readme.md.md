@@ -2,7 +2,7 @@
 
 iOS change log is a library that automates the notification of the change log of new version of an app to the user. It shows the change log first time the app runsy after an update.
 
-# Integration
+## Integration
 #### **Manually**
 To use this library in your project manually you may:
 1.  for Workspaces, include the whole CLGChangeLog.xcodeproj
@@ -83,6 +83,6 @@ override func viewDidAppear(_ animated: Bool) {
 }
 ``
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjA2MDA1NTYsLTYxNjIzODI3NiwtMj
-AxMDYzNDMxNl19
+eyJoaXN0b3J5IjpbMTgzNDU3MTU3OSwtNjE2MjM4Mjc2LC0yMD
+EwNjM0MzE2XX0=
 -->
