@@ -1,9 +1,8 @@
 # iOS Change Log
 
-iOS change log lib is a library that automates the notification of the change log of new an app 
+iOS change log is a library that automates the notification of the change log of new version of an app to the user 
 
-
-# Files
+# Integration
 
 StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
 
@@ -142,5 +141,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MDE0OTk0MV19
+eyJoaXN0b3J5IjpbOTAyMTI4NTgxXX0=
 -->
