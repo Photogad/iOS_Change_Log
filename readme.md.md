@@ -57,13 +57,12 @@ changelog
 ## Usage
 
 This code usually runs in the main controller of the app or in the ViewController you want the popup to be displayed.
-'CLGChangeLogManager'
-
 #### Import
 ```swift
 import CLGChangeLog
 ```
 #### Initialization
+*CLGChangeLogManager* is the class that manage all of the logic, you must provide the controller 
 ```swift
 import CLGChangeLog
 
@@ -197,6 +196,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MjY5MDU5MiwtNjE2MjM4Mjc2LC0yMD
-EwNjM0MzE2XX0=
+eyJoaXN0b3J5IjpbLTEyMzY3NTM4MzgsLTYxNjIzODI3NiwtMj
+AxMDYzNDMxNl19
 -->
