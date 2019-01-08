@@ -15,16 +15,13 @@ The xml must have this structure
  `changelog` 
 	 `release 1`
 		`change 1`
-		`change 2`
-	 `release 2`
+   	     `...`
+		`change x`
+	`...`
+	`release m`
 		`change 1`
-		`change 2`
-		`change 1`
-		`change 2`
-		'
-	`release n`
-		`change 1`
-		`change 2`
+		`...`
+		`change y`
 
 ## Switch to another file
 
@@ -157,6 +154,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjU3NDczNzEsLTIwMTA2MzQzMTZdfQ
-==
+eyJoaXN0b3J5IjpbMTg4NTM5MDEyMSwtMjAxMDYzNDMxNl19
 -->
