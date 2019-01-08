@@ -16,8 +16,10 @@ The xml must have this tag structure
 changelog
 	release 1
 		change 1
+			'Description of change 1'
 		...   	    
 		change x
+			'Description of change n'
 	...
 	release m
 		change 1
@@ -29,7 +31,7 @@ Here a table of Tags attributes:
 |--|--| -- |
 | **changelog**| **title** | Title of the change log notification popup|
 | **release**| **version** | Label of version for the user |
-| **release**| **versioncode** | Number of the version. The library use this number to order the version de |
+| **release**| **versioncode** | Number of the version. The library use this number to sort the release and present last version|
 
 
 
@@ -164,6 +166,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMjk1MjY5NiwtNjE2MjM4Mjc2LC0yMD
-EwNjM0MzE2XX0=
+eyJoaXN0b3J5IjpbLTExMDU4NDU0MzksLTYxNjIzODI3NiwtMj
+AxMDYzNDMxNl19
 -->
