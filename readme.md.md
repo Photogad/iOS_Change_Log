@@ -8,7 +8,8 @@ To use this library in your project manually you may:
 1.  for Workspaces, include the whole CLGChangeLog.xcodeproj
 
 ## Prepare change the log XML
-The lib require an xml file with the history of the change log of the app.
+
+The lib require an xml file with the history of the change log of the app in the app bundle.
 
 #### **Xml structure**
 ```
@@ -56,7 +57,13 @@ changelog
 ## Usage
 
 #### Inizialization
+```swift
+// swift-tools-version:4.0
+import CLGChangeLog
 
+let manager =  CLGChangeLogManager(mainController: self, changeLogUri: Bundle.main.url(forResource: "changelog", withExtension: "xml")!)
+)
+```
 
 ## Rename a file
 
@@ -185,6 +192,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjU1NzA4MjUsLTYxNjIzODI3NiwtMj
+eyJoaXN0b3J5IjpbLTE4NzQ0OTUwNzgsLTYxNjIzODI3NiwtMj
 AxMDYzNDMxNl19
 -->
