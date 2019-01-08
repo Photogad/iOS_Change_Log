@@ -5,10 +5,9 @@ iOS change log is a library that automates the notification of the change log of
 # Integration
 **Manually**
 To use this library in your project manually you may:
-1.  for Projects, just drag SwiftyJSON.swift to the project tree
-2.  for Workspaces, include the whole SwiftyJSON.xcodeproj
+1.  for Workspaces, include the whole CLGChangeLog.xcodeproj
 
-## Create files and folders
+## Usage
 
 The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the **New file** button in the file explorer. You can also create folders by clicking the **New folder** button.
 
@@ -143,5 +142,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNTExMTMxM119
+eyJoaXN0b3J5IjpbLTIwMTA2MzQzMTZdfQ==
 -->
