@@ -26,8 +26,9 @@ changelog
 ```
 Here a table of Tags attributes:
 | Tag | Attribute  | Description  |
-| changel
 |--|--| -- |
+| changelog| title | Title displa|
+| changelog| title | Descrizione |
 |  |  | |
 
 
@@ -162,6 +163,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MTYzMjg0MCwtNjE2MjM4Mjc2LC0yMD
+eyJoaXN0b3J5IjpbMTk3MjE0MTM4NCwtNjE2MjM4Mjc2LC0yMD
 EwNjM0MzE2XX0=
 -->
