@@ -9,7 +9,7 @@ To use this library in your project manually you may:
 
 ## Usage
 
-**Prepare change the log file**
+**Prepare change the log XML**
 The lib requiere an xml file with the history of the change log of the app.
 The xml must have this tag structure
 ```markup
@@ -158,5 +158,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2ODY2OTIxMywtMjAxMDYzNDMxNl19
+eyJoaXN0b3J5IjpbLTEyNjM5ODE1NDAsLTIwMTA2MzQzMTZdfQ
+==
 -->
