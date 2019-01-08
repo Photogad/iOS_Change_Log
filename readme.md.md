@@ -28,10 +28,9 @@ Here a table of Tags attributes:
 | Tag | Attribute  | Description  |
 |--|--| -- |
 | **changelog**| **title** | Title of the change log notification popup|
-| **release**| **version** | Label of version |
+| **release**| **version** | Label of version for the user |
+| **release**| **versioncode** | Number of the version. The library use this number to order the version de |
 
-| changelog| title | Descrizione |
-|  |  | |
 
 
 ## Switch to another file
@@ -165,6 +164,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc5MTcwMTIyLC02MTYyMzgyNzYsLTIwMT
-A2MzQzMTZdfQ==
+eyJoaXN0b3J5IjpbLTMzMjk1MjY5NiwtNjE2MjM4Mjc2LC0yMD
+EwNjM0MzE2XX0=
 -->
