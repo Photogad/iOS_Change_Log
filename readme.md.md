@@ -3,15 +3,15 @@
 iOS change log is a library that automates the notification of the change log of new version of an app to the user. It shows the change log first time the app runsy after an update.
 
 # Integration
-**Manually**
+#### **Manually**
 To use this library in your project manually you may:
 1.  for Workspaces, include the whole CLGChangeLog.xcodeproj
 
 ## Prepare change the log XML
 The lib require an xml file with the history of the change log of the app.
 
-**Xml structure**
-```markup
+#### **Xml structure**
+```
 changelog
 	release 1
 		change 1
@@ -32,7 +32,60 @@ changelog
 | **release**| **version** | Label of version for the user |
 | **release**| **versioncode** | Number of the version. The library use this number to sort the release and present last version|
 
+#### **Example**
+```
+<?xml version="1.0" encoding="utf-8"?>
 
+<changelog title="Change Log">
+
+<release version="1.5" versioncode="7" >
+
+<change>Totally new and shiny version</change>
+
+</release>
+
+<release version="1.4" versioncode="6" >
+
+<change>Totally new and shiny version</change>
+
+</release>
+
+<release version="1.3" versioncode="5" >
+
+<change>Totally new and shiny version</change>
+
+</release>
+
+<release version="1.2" versioncode="4" >
+
+<change>Totally new and shiny version</change>
+
+</release>
+
+<release version="1.1" versioncode="3" >
+
+<change>Totally new and shiny version</change>
+
+</release>
+
+<release version="1.0" versioncode="2" >
+
+<change>Fixed: A bug fix</change>
+
+<change>Some other changes I can't quite remember</change>
+
+<change>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.</change>
+
+</release>
+
+<release version="0.1" versioncode="1">
+
+<change>First release</change>
+
+</release>
+
+</changelog>
+```
 
 ## Switch to another file
 
@@ -165,6 +218,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NTc4NDA4NiwtNjE2MjM4Mjc2LC0yMD
-EwNjM0MzE2XX0=
+eyJoaXN0b3J5IjpbLTE4MDg0OTcwMTAsLTYxNjIzODI3NiwtMj
+AxMDYzNDMxNl19
 -->
