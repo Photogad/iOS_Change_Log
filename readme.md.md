@@ -1,6 +1,6 @@
 # iOS Change Log
 
-iOS change log is a library that automates the notification of the change log of new version of an app to the user. It shows only the change log only after an update of the app.
+iOS change log is a library that automates the notification of the change log of new version of an app to the user. It shows the change log first time the app runsy after an update.
 
 # Integration
 **Manually**
@@ -26,7 +26,7 @@ changelog
 		...
 		change y
 ```
-Here a table of Tags attributes:
+#### **Tags attributes:**
 | Tag | Attribute  | Description  |
 |--|--| -- |
 | **changelog**| **title** | Title of the change log notification popup|
@@ -166,6 +166,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDU4NDU0MzksLTYxNjIzODI3NiwtMj
-AxMDYzNDMxNl19
+eyJoaXN0b3J5IjpbLTMxMjEyNzMwMCwtNjE2MjM4Mjc2LC0yMD
+EwNjM0MzE2XX0=
 -->
