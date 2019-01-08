@@ -1,0 +1,6 @@
+framework module CLGChangeLog {
+  umbrella header "CLGChangeLog-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'CLGChangeLog_Example' do
+  pod 'CLGChangeLog', :path => '../'
+
+  target 'CLGChangeLog_Tests' do
+    inherit! :search_paths
+
+    pod 'Quick'
+    pod 'Nimble'
+    pod 'FBSnapshotTestCase'
+    pod 'Nimble-Snapshots'
+  end
+end
