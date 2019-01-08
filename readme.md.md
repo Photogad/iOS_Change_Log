@@ -2,6 +2,10 @@
 
 iOS change log is a library that automates the notification of the change log of new version of an app to the user. It shows the change log first time the app runsy after an update.
 
+## Requirements
+-   iOS 8.0+ / macOS 10.12+ / tvOS 10.0+ / watchOS 3.0+
+-   Xcode 10.1+
+-   Swift 4.2+
 ## Integration
 #### **Manually**
 To use this library in your project manually you may:
@@ -83,6 +87,6 @@ override func viewDidAppear(_ animated: Bool) {
 }
 ``
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNDU3MTU3OSwtNjE2MjM4Mjc2LC0yMD
-EwNjM0MzE2XX0=
+eyJoaXN0b3J5IjpbLTIxNDEzOTY1MDIsLTYxNjIzODI3NiwtMj
+AxMDYzNDMxNl19
 -->
