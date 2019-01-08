@@ -34,7 +34,7 @@ changelog
 | **release**| **versioncode** | Number of the version. The library use this number to sort the release and present last version|
 
 #### **Example**
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <changelog title="Change Log">
 	<release version="2.0" versioncode="3" >
@@ -55,14 +55,18 @@ changelog
 ```
 
 ## Usage
-This code the app controller where you want to eventually show the popup
+
+This code runs
 
 #### Import
 ```swift
 import CLGChangeLog
+```
+#### Initialization
+```swift
+import CLGChangeLog
 
-let manager =  CLGChangeLogManager(mainController: self, changeLogUri: Bundle.main.url(forResource: "changelog", withExtension: "xml")!)
-)
+let manager =  CLGChangeLogManager(mainController: self, changeLogUri: Bundle.main.url(forResource: "changelog", withExtension: "xml")!))
 ```
 
 ## Rename a file
@@ -192,6 +196,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMwOTQ5MDE4LC02MTYyMzgyNzYsLTIwMT
-A2MzQzMTZdfQ==
+eyJoaXN0b3J5IjpbLTc2ODk0OTYzMSwtNjE2MjM4Mjc2LC0yMD
+EwNjM0MzE2XX0=
 -->
