@@ -20,6 +20,15 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 To use this library in your project manually you may:
 1.  for Workspaces, include the whole CLGChangeLog.xcodeproj
 
+#### **Local pod**
+Download this repository in a local path. To install as local pod repository
+it, simply add the following line to your Podfile
+
+```ruby
+pod 'CLGChangeLog', :path => '~/dunbar/ios_change_log'
+```
+>substitue path '~/dunbar/ios_change_log' with the repository download path
+
 ## Prepare change the log XML
 
 The lib require an xml file with the history of the change log of the app in the app bundle.
@@ -99,18 +108,7 @@ print("No release found")
 ## Credits
 
 iOS change log is owned and maintained by the  **Dunbar Technology LLC**
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ0NjAwMjNdfQ==
--->
 
-## Installation
-
-CLGChangeLog is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'CLGChangeLog'
-```
 
 ## Author
 

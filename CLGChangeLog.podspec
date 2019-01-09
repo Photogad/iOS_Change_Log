@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CLGChangeLog'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of CLGChangeLog.'
+  s.version          = '0.1.1'
+  s.summary          = 'iOS change log is a library that automates the notification of the change log to the user'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,9 +18,9 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+iOS change log is a library that automates the notification of the change log of new version of an app to the user. It shows the change log first time the app runsy after an update.
                        DESC
-
+  s.swift_version    = '4.2'
   s.homepage         = 'https://github.com/photog0411/iOS_Change_Log.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -37,6 +37,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
