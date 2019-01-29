@@ -41,8 +41,7 @@ class CLGChangeLogViewController: UIViewController,UITableViewDelegate,UITableVi
         changesTableView.register(UINib(nibName: "CLGChangeCell", bundle: bundle ), forCellReuseIdentifier: kChangeCellIdentifier)
         popupView.layer.cornerRadius = 40;
         titleLabel.text = changeLog.title
-        backgroundView.isHidden = true
-        backgroundView.alpha = 0;
+        backgroundView.alpha = 0.5;
     }
 
     override func viewWillAppear(_ animated: Bool) {
@@ -51,11 +50,7 @@ class CLGChangeLogViewController: UIViewController,UITableViewDelegate,UITableVi
         reloadAndCalculateHeight()
         
     }
-    
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-        self.showBackgroundMask()
-    }
+
     /*
     // MARK: - Navigation
 
@@ -133,16 +128,5 @@ class CLGChangeLogViewController: UIViewController,UITableViewDelegate,UITableVi
         changesTableView.layoutIfNeeded()
         popupViewHeightConstraint.constant = min(changesTableView.contentSize.height + titleHeightConstraint.constant + footerHeightConstraint.constant + 20, self.view.frame.height - 100)
     }
-    
-    //MARK: - Public Functions
-    public func showBackgroundMask()
-    {
-        backgroundView.isHidden = false
-        UIView.animate(withDuration: 0.25) {
-            self.backgroundView.alpha = 0.5
-        }
-        
-    }
-    
     
 }

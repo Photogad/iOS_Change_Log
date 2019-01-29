@@ -84,17 +84,17 @@ This code usually runs in the main controller of the app or in the ViewControlle
 import CLGChangeLog
 ```
 #### Initialization
-*CLGChangeLogManager* is the class that manage all of the logic, you must provide the view controller where you want the eventually show the popup
-and the url of the change log xml (usually in the main bundle). 
+*CLGChangeLogManager* is the class that manage all of the logic, 
+you must provide the url of the change log xml (usually in the main bundle). 
 ```swift
-let manager =  CLGChangeLogManager(mainController: self, changeLogUri: Bundle.main.url(forResource: "changelog", withExtension: "xml")!))
+let manager =  CLGChangeLogManager(changeLogUri: Bundle.main.url(forResource: "changelog", withExtension: "xml")!)
 ```
 #### Check for change log updates
-In the viewDidAppear ovverride you can call checkChangeLog of the manager object and the lib display the change log popup if needed.
+In the viewDidAppear ovverride you can call checkChangeLog of the manager object and the lib display the change log popup if needed. You must provide the view controller that eventually present the modal popup
 ```swift
 override func viewDidAppear(_ animated: Bool) {
 super.viewDidAppear(animated)
-if manager.checkChangeLog()
+if manager.checkChangeLog(parentViewController: self)
 {
 print("New release found")
 }
@@ -103,6 +103,18 @@ else
 print("No release found")
 }
 }
+```
+
+#### Get the list of new updates
+Use the getNotPresentedReleases method to get the list of the new releases not yet presented to the user. It can be used to check manually if there are some new releases to notify
+```swift
+ let newReleases = changeLogManager.getNotPresentedReleases()
+```
+
+#### Open changelogs popup manually
+Use the presentModalInViewController method to open the changelog popup manually. You must provide the view controller that present the modal popup
+```swift
+changeLogManager.presentModalInViewController(self)
 ```
 
 ## Credits

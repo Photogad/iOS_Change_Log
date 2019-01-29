@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelog title="Change Log">
-    <release version="1.5" versioncode="12" >
+    <release version="1.5" versioncode="39" >
         <change>Totally new and shiny version</change>
     </release>
-    <release version="1.4" versioncode="6" >
+    <release version="1.4" versioncode="17" >
         <change>Totally new and shiny version</change>
     </release>
     <release version="1.3" versioncode="5" >

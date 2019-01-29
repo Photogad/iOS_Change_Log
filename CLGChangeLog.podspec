@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CLGChangeLog'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'iOS change log is a library that automates the notification of the change log to the user'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ iOS change log is a library that automates the notification of the change log of
   s.homepage         = 'https://github.com/photog0411/iOS_Change_Log.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Matteo Pillon' => 'matteopillon@icode.it' }
+  s.author           = { 'Matteo Pillon' => 'matteo@matteopillon.im' }
   s.source           = { :git => 'https://github.com/photog0411/iOS_Change_Log.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
