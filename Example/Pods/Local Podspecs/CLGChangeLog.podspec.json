@@ -1,6 +1,6 @@
 {
   "name": "CLGChangeLog",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "summary": "iOS change log is a library that automates the notification of the change log to the user",
   "description": "iOS change log is a library that automates the notification of the change log of new version of an app to the user. It shows the change log first time the app runsy after an update.",
   "swift_versions": "4.2",
@@ -14,7 +14,7 @@
   },
   "source": {
     "git": "https://github.com/photog0411/iOS_Change_Log.git",
-    "tag": "0.1.2"
+    "tag": "0.1.3"
   },
   "platforms": {
     "ios": "9.0"

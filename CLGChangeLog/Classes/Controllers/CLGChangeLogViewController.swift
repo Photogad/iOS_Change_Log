@@ -39,13 +39,6 @@ class CLGChangeLogViewController: UIViewController,UITableViewDelegate,UITableVi
 
         // Do any additional setup after loading the view.
         changesTableView.register(UINib(nibName: "CLGChangeCell", bundle: bundle ), forCellReuseIdentifier: kChangeCellIdentifier)
-        changesTableView.backgroundColor = .clear
-        if #available(iOS 11.0, *) {
-            self.popupView.backgroundColor = UIColor.init(named: "AppWhiteColor") ?? .white
-        } else {
-            // Fallback on earlier versions
-            self.popupView.backgroundColor = .white
-        }
         popupView.layer.cornerRadius = 40;
         titleLabel.text = changeLog.title
         backgroundView.alpha = 0.5;
@@ -88,15 +81,6 @@ class CLGChangeLogViewController: UIViewController,UITableViewDelegate,UITableVi
         let headerView = UINib(nibName: "CLGReleaseHeaderView", bundle: bundle ).instantiate(withOwner: self, options: nil)[0] as! UIView
         let label = headerView.viewWithTag(1) as! UILabel
         label.text =  "Release \(changeLog.releases[section].version)"
-        headerView.backgroundColor = .clear
-        
-        if #available(iOS 11.0, *) {
-            label.textColor = UIColor.init(named: "AppBlackColor") ?? .black
-        } else {
-            // Fallback on earlier versions
-            label.textColor = .black
-        }
-        
         return headerView
     }
     // MARK: - UITableViewDataSource
@@ -114,17 +98,7 @@ class CLGChangeLogViewController: UIViewController,UITableViewDelegate,UITableVi
         
         let textView = cell.contentView.viewWithTag(1) as! UITextView
         textView.text = changeLog.releases[indexPath.section].changes[indexPath.row].text;
-        if #available(iOS 11.0, *) {
-            textView.textColor = UIColor.init(named: "AppBlackColor") ?? .black
-        } else {
-            // Fallback on earlier versions
-            textView.textColor = .black
-        }
         textView.sizeToFit()
-        textView.backgroundColor = .clear
-        
-        cell.backgroundColor = .clear
-        cell.contentView.backgroundColor = .clear
         return cell
     }
     
