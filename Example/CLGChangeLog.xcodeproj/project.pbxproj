@@ -301,21 +301,17 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-CLGChangeLog_Example/Pods-CLGChangeLog_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-CLGChangeLog_Example/Pods-CLGChangeLog_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CLGChangeLog/CLGChangeLog.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CLGChangeLog.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CLGChangeLog_Example/Pods-CLGChangeLog_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CLGChangeLog_Example/Pods-CLGChangeLog_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C60588E2780042173B073C77 /* [CP] Embed Pods Frameworks */ = {
@@ -323,10 +319,8 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-CLGChangeLog_Tests/Pods-CLGChangeLog_Tests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-CLGChangeLog_Tests/Pods-CLGChangeLog_Tests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
 				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
 				"${BUILT_PRODUCTS_DIR}/Nimble-Snapshots/Nimble_Snapshots.framework",
@@ -334,8 +328,6 @@
 				"${BUILT_PRODUCTS_DIR}/iOSSnapshotTestCase/FBSnapshotTestCase.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
@@ -344,7 +336,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CLGChangeLog_Tests/Pods-CLGChangeLog_Tests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CLGChangeLog_Tests/Pods-CLGChangeLog_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C6C1F3ECE509802E88619C4A /* [CP] Check Pods Manifest.lock */ = {
