@@ -594,6 +594,7 @@
 		0D35BB47415EA6B458710A06C74DC846 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
+				B694B57F238D8460005C3CE5 /* Colors.xcassets */,
 				A95AB741D569BFB12A2A290606E6000F /* CLGChangeLog.modulemap */,
 				6BAAC1350DEC4B52E3F4EB36B55753A0 /* CLGChangeLog.xcconfig */,
 				C6C1A9AEBD57831BDCB1BCFECC89040E /* CLGChangeLog-dummy.m */,
@@ -677,7 +678,6 @@
 		43E396C91135F4F85507BB580BD7A228 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B694B57F238D8460005C3CE5 /* Colors.xcassets */,
 				C0D1176BDBE7C983087A6787764EC1AD /* CLGChangeLog */,
 			);
 			name = "Development Pods";

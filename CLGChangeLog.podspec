@@ -30,7 +30,8 @@ iOS change log is a library that automates the notification of the change log of
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'CLGChangeLog/**/*' 
+  s.source_files = 'CLGChangeLog/Classes/**/*'
+
   
   # s.resource_bundles = {
   #   'CLGChangeLog' => ['CLGChangeLog/Assets/*.png']
