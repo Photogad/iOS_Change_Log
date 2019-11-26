@@ -40,6 +40,7 @@ class CLGChangeLogViewController: UIViewController,UITableViewDelegate,UITableVi
         // Do any additional setup after loading the view.
         changesTableView.register(UINib(nibName: "CLGChangeCell", bundle: bundle ), forCellReuseIdentifier: kChangeCellIdentifier)
         popupView.layer.cornerRadius = 40;
+        popupView.backgroundColor = .white
         titleLabel.text = changeLog.title
         backgroundView.alpha = 0.5;
     }
@@ -81,6 +82,9 @@ class CLGChangeLogViewController: UIViewController,UITableViewDelegate,UITableVi
         let headerView = UINib(nibName: "CLGReleaseHeaderView", bundle: bundle ).instantiate(withOwner: self, options: nil)[0] as! UIView
         let label = headerView.viewWithTag(1) as! UILabel
         label.text =  "Release \(changeLog.releases[section].version)"
+        label.textColor = .black
+        label.backgroundColor = .clear
+        headerView.backgroundColor = .clear
         return headerView
     }
     // MARK: - UITableViewDataSource
@@ -99,6 +103,11 @@ class CLGChangeLogViewController: UIViewController,UITableViewDelegate,UITableVi
         let textView = cell.contentView.viewWithTag(1) as! UITextView
         textView.text = changeLog.releases[indexPath.section].changes[indexPath.row].text;
         textView.sizeToFit()
+        textView.backgroundColor = .clear
+        textView.textColor = .black
+        
+        cell.backgroundColor = .clear
+        cell.contentView.backgroundColor = .clear
         return cell
     }
     
