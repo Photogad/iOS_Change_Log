@@ -1,10 +1,6 @@
 # CLGChangeLog
-iOS change log is a library that automates the notification of the change log of new version of an app to the user. It shows the change log first time the app runsy after an update.
+iOS change log is a library that automates the notification of the change log of new version of an app to the user. It shows the change log the first time the app runs after an update.
 
-[![CI Status](https://img.shields.io/travis/Matteo Pillon/CLGChangeLog.svg?style=flat)](https://travis-ci.org/Matteo Pillon/CLGChangeLog)
-[![Version](https://img.shields.io/cocoapods/v/CLGChangeLog.svg?style=flat)](https://cocoapods.org/pods/CLGChangeLog)
-[![License](https://img.shields.io/cocoapods/l/CLGChangeLog.svg?style=flat)](https://cocoapods.org/pods/CLGChangeLog)
-[![Platform](https://img.shields.io/cocoapods/p/CLGChangeLog.svg?style=flat)](https://cocoapods.org/pods/CLGChangeLog)
 
 ## Example
 
@@ -16,6 +12,14 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 -   Swift 4.0+
 
 ## Integration
+
+#### **Cocoapods**
+Add to podfile
+
+```ruby
+  pod 'CLGChangeLog', :git => 'https://github.com/photogad/iOS_Change_Log.git', :branch => 'pod'
+```
+
 #### **Manually**
 To use this library in your project manually you may:
 1.  for Workspaces, include the whole CLGChangeLog.xcodeproj
